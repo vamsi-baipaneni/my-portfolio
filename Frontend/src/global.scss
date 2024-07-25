@@ -1,0 +1,24 @@
+// Import the fonts
+// Import the CSS variables
+@import "../vars.css";
+
+// Apply global styles using the CSS variables
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-roboto), sans-serif;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-outfit), sans-serif;
+}
+
+// Additional global styles can go here

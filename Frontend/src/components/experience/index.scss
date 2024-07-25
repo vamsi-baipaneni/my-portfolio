@@ -1,0 +1,132 @@
+@import "../../../vars.css";
+
+.exp-section {
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 1;
+    color: var(--color-text);
+
+    .exp-title {
+        font-family: var(--font-roboto);
+        font-size: 35px;
+        font-weight: 700;
+        color: var(--color-text);
+        letter-spacing: 1.75px;
+    }
+
+    .exp-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .exp-skills {
+            width: 45%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 37px;
+
+            .exp-skill {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 11px;
+
+                .exp-skillimg-container {
+                    background: rgba(45, 43, 110,0.4);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 100%;
+                    padding: 10%;
+                    width: 120px;
+                    height: 120px;
+
+                    img {
+                        width: 75px;
+                    }
+                }
+
+                span {
+                    font-size: 25px;
+                    font-family: var(--font-outfit);
+                    font-weight: 500;
+                }
+
+                
+            }
+        }
+
+        .exp-exps {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            .exp-exp {
+                display: flex;
+                align-items: center;
+                background: #19376d;
+                background: linear-gradient(90deg, #19376d 0%, rgba(25,55,109,0) 100%);
+                border-radius: 10px;
+                padding-left: 30px;
+
+                .exp-exp-img {
+                    height: 50px;
+                    width: 50px; /* Adjust as needed */
+                    margin-right: 12px;
+                    align-self: center;
+                }
+
+                .exp-exp-content {
+                    display: flex;
+                    flex-direction: column;
+
+                    .exp-exp-title {
+                        font-size: 30px;
+                        font-weight: 500;
+                        margin-bottom: 2px;
+                    }
+
+                    .exp-exp-period {
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: rgb(141, 141, 145)
+                    }
+
+                    .exp-exp-pointers {
+                        list-style-position: inside;
+                        list-style-type: disc;
+                        text-wrap: wrap;
+                        font-size: 20px;
+                        font-family: var(--font-outfit);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .exp-section {
+        .exp-content {
+            padding-left: 0;
+            padding-right: 0;
+            flex-direction: column;
+            align-items: center;
+            gap: 34px;
+
+            .exp-skills{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .exp-exps {
+                width: 100%;
+                gap: 9px;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+@import "../../../vars.css";
+
+.contact-container {
+    margin-top: 73px;
+    width: 100%;
+
+    .contact-content {
+        background: var(--color-primary);
+        display: flex;
+        justify-content: space-around;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 5%;
+        padding-top: 2%;
+
+        .contact-heading {
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                font-size: 50px;
+                letter-spacing: 1.75px;
+            }
+
+            span {
+                font-weight: 400;
+                font-size: 35px;
+                font-family: var(--font-outfit);
+            }
+
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                img {
+
+                }
+
+                a {
+                    text-decoration: none;
+                    color: var(--color-text);
+                    font-family: var(--font-outfit);
+                }
+            }
+        }
+    }
+}
