@@ -1,7 +1,6 @@
 import "./index.scss";
-import React from "react";
 import { skills } from "./skills";
-import { experiences } from "./experience";
+import { experiences } from "./experiences";
 
 const Experience = () => {
   return (

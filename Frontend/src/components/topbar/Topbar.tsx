@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { getImageUrl } from "../../../utils.js";
+import { useState } from "react";
+import {getImageUrl} from '../../../utils';
 
 import "./index.scss";
 

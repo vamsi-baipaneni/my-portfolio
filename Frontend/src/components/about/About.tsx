@@ -1,5 +1,4 @@
 import "./index.scss";
-import React from "react";
 import { getImageUrl } from "../../../utils";
 
 const About = () => {
