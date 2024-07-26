@@ -9,11 +9,12 @@
     border-radius: 10px;
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 18px 24px;
-    max-width: 345px;
+    width: 345px;
+    
     font-family: var(--font-outfit);
 
     img {
-        margin-bottom: 26px;
+        margin-bottom: 10px;
     }
 
     h2 {
@@ -23,16 +24,19 @@
 
     span {
         font-size: 25px;
-        margin-top: 6px;
+        margin-top: -10px;
+        margin-bottom: 30px;
         font-weight: 400;
         font-family: var(--font-outfit);
+        text-wrap: wrap;
+        text-wrap-style: pretty;
     }
 
     div {
         width: 100%;
         display: flex;
-        justify-content: space-between;
-        list-style: none;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
 
         span {
             font-size: 25px;
@@ -44,7 +48,7 @@
     }
 
     a {
-        margin-top: 26px;
+        margin-top: 6px;
         font-size: 30px;
         padding: 1px 22px;
         font-weight: 600;
@@ -55,25 +59,16 @@
         border-radius: 20px;
 
         &:hover {
-            animation-name: colorTransition;
-            animation-duration: 2s;
-            animation-iteration-count: infinite;
-            animation-timing-function: ease-in-out;
+            animation: colorTransition 1s ease-in forwards alternate;
         }
     }
 }
 
 @keyframes colorTransition {
     0% {
-        background-color: var(--color-primary);
-    }
-    33% {
-        background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-    }
-    66% {
-        background: linear-gradient(270deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+        background: var(--color-primary);
     }
     100% {
-        background-color: var(--color-primary);
+        background: var(--color-secondary);
     }
 }

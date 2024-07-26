@@ -7,7 +7,7 @@ const Hero = () => {
     <section className='hero-container'>
         <div className='hero-content'>
             <h1 className='hero-title'>Hi, I'm Sri</h1>
-            <p className='hero-description'>I'm a full-stack developer with 5 years of experience in React and Spring Boot</p>
+            <p className='hero-description'>I'm a full-stack developer with 2 years of experience in React and Spring Boot</p>
             <a className="hero-contact-btn" href='mailto: myemail@email.com'>Contact Me</a>
         </div>
         <img className='hero-img' src={getImageUrl("hero/heroImage.png")} alt='hero-iamge'/>

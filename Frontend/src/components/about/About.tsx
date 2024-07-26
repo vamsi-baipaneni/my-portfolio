@@ -7,7 +7,7 @@ const About = () => {
         <div className="about-container" id="about">
             <h1 className="about-title">ABOUT</h1>
             <section className="about-img-bullets">
-                <img className="about-img" src={getImageUrl("about/aboutImage.png")} alt="about-image" />
+                <img className="about-img" src={getImageUrl("about/aboutImage.jpg")} alt="about-image" />
                 <ul className="about-bullets">
                     <li>
                         <img src={getImageUrl("about/cursorIcon.png")} alt="cursor-img" />

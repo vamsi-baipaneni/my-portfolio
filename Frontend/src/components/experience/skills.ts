@@ -10,10 +10,6 @@ export const skills = [
         name: "Figma"
     },
     {
-        path: getImageUrl("skills/graphql.png"),
-        name: "GraphQL"
-    },
-    {
         path: getImageUrl("skills/html.png"),
         name: "HTML"
     },
@@ -28,5 +24,13 @@ export const skills = [
     {
         path: getImageUrl("skills/react.png"),
         name: "React"
-    }
+    },
+    {
+        path: getImageUrl("skills/springboot.png"),
+        name: "Spring Boot"
+    },
+    {
+        path: getImageUrl("skills/postgres.png"),
+        name: "Postgres"
+    },
 ]

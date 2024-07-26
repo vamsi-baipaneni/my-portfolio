@@ -1,17 +1,19 @@
 export const projects = [
-    
+
     {
-        title: "Example Project",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh enim, lobortis at metus et, tempor suscipit purus. Phasellus porta ut libero sit amet dignissim. Cras ultrices convallis maximus. Vivamus odio dui, pellentesque eget erat sed, tempor ultrices urna. Cras ac elit viverra, elementum sapien et, blandit ex. Sed venenatis arcu eu maximus dapibus. Nunc luctus purus velit, vitae interdum ante cursus eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor nisi vel mi porta feugiat.",
-        skills: ["React", "Express", "Node"],
-        source: "https://www.github.com/vamsi-baipaneni",
+        title: "Hotel Booking Application",
+        description: "A web application that helps in hotel booking and management.",
+        skills: ["React", "Express", "Node", "MongoDB", "TailwindCSS"],
+        source: "https://github.com/vamsi-baipaneni/hotel-booking.git",
         image: "projects/project.png" 
     },
+    
     {
-        title: "Example Project",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh enim, lobortis at metus et, tempor suscipit purus. Phasellus porta ut libero sit amet dignissim. Cras ultrices convallis maximus. Vivamus odio dui, pellentesque eget erat sed, tempor ultrices urna. Cras ac elit viverra, elementum sapien et, blandit ex. Sed venenatis arcu eu maximus dapibus. Nunc luctus purus velit, vitae interdum ante cursus eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor nisi vel mi porta feugiat.",
-        skills: ["React", "Express", "Node"],
-        source: "https://www.github.com/vamsi-baipaneni",
+        title: "My Portfolio",
+        description: "Built this portfolio using react+typescript along with SCSS for styling",
+        skills: ["React", "SCSS", "TypeScript"],
+        source: "https://github.com/vamsi-baipaneni/my-portfolio.git",
         image: "projects/project.png" 
     }
+    
 ]
